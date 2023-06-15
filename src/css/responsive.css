@@ -1,0 +1,108 @@
+@media (max-width: 1024px) {
+    .cabecalho img {
+        width: 35vw;
+        height: 10vh;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .container .conteudo {
+        width: 70%;
+        height: 50rem;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    .container .conteudo .conteudo-principal h1 {
+        height: 20%;
+        margin-top: 30px;
+        font-size: 5vw;
+        padding: 50px;
+    }
+
+    .container .conteudo .conteudo-principal p {
+        height: 40%;
+        font-size: 3vw;
+        padding: 15px 80px;
+        margin-top: 100px;
+        line-height: 8vh;
+    }
+
+    .container .conteudo .conteudo-principal .botao {
+        justify-content: center;
+    }
+
+    .container .conteudo .conteudo-principal .botao a{
+        width: 35vw;
+        height: 6vh;
+        font-size: 2.5vw;
+        
+    }
+
+    .rede-sociais {
+        justify-content: center;
+        height: 6.25rem;
+    }
+
+    .rede-sociais .rede-social {
+        height: 3.125rem;
+        width: 3.125rem;
+        margin: 35px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container .conteudo .conteudo-principal p {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container{
+        height: 700px;
+    }
+
+    .container .imagem-layout {
+        height: 40%;
+    }
+
+    .container .imagem-layout img{
+        width: 80vw;
+    }
+
+
+    .container .conteudo .conteudo-principal h1 {
+        margin: 0;
+        padding: 30px;
+        display: flex;
+        width: 80vw;
+        height: 20%;
+    }
+
+    .container .conteudo .conteudo-principal p {
+        height: 40%;
+        line-height: 6vh;
+        margin: 30px 0 0;
+        padding: 5px 10px;
+        font-size: 3.5vw;
+    }
+
+    .container .conteudo .conteudo-principal .botao {
+        margin-top: 20px;
+    }
+
+    .container .conteudo .conteudo-principal .botao a {
+        width: 40vw;
+        height: 7vh;
+    }
+
+    .rede-sociais .rede-social {
+        margin: 15px;
+    }
+}
